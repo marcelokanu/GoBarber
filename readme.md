@@ -1,4 +1,4 @@
-#GoBarber
+# GoBarber
 
 <p align="center">
  <img src="frontend/src/assets/logo.svg" alt="gobarberweb" width="300px">
