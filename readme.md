@@ -1,5 +1,5 @@
 <p align="center">
- <h1> GoBarber </h1>
+GoBarber
  <img src="frontend/src/assets/logo.svg" alt="gobarberweb" width="300px">
 </p>
 
