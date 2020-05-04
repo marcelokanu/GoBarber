@@ -1,6 +1,6 @@
 <p align="center">
-GoBarber
  <img src="frontend/src/assets/logo.svg" alt="gobarberweb" width="300px">
+ <p>GoBarber</p>
 </p>
 
 
