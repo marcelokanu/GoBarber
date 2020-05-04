@@ -1,8 +1,6 @@
 # GoBarber
 
-## App desenvolvido durante estudos do bootcamp GoStack da RocketSeat
-
-<img src="frontend/src/assets/logo.svg" alt="gobarberweb" width="100%">
+<img src="frontend/src/assets/logo.svg" alt="gobarberweb" width="300px">
 
 
 # Sobre o projeto
