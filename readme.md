@@ -1,6 +1,9 @@
-<img src="frontend/src/assets/logo.svg" alt="gobarberweb" width="300px">
 
-<center># GoBarber</center>
+
+<p align="justify">
+  # GoBarber
+</p>
+
 
 
 # Sobre o projeto
