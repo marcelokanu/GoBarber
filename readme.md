@@ -32,7 +32,7 @@ App desenvolvido durante estudos do bootcamp GoStack da RocketSeat :rocket:
 
 
 
-<img src="src/assets/gobarber.gif" alt="gobarberweb" width="100%">
+<img src="frontend/src/assets/gobarber.gif" alt="gobarberweb" width="100%">
 
 # Dúvidas?
 :mailbox_with_no_mail:[Marcelo Bonilla](https://www.linkedin.com/in/marcelobonilla/)
