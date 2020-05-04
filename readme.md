@@ -1,4 +1,4 @@
-
+<img src="frontend/src/assets/logo.svg" alt="gobarberweb" width="300px">
 
 <p align="justify">
   # GoBarber
@@ -26,7 +26,7 @@ App desenvolvido durante estudos do bootcamp GoStack da RocketSeat :rocket:
 
 6. Executar via terminal o comando `yarn start` para rodar o projeto front
 
-7. Executar via terminal o comando react-native run-android (utilizando Android Studio Emulator no Windows)
+7. Executar via terminal o comando `react-native run-android` (utilizando Android Studio Emulator no Windows)
 
 # Usabilidade
 
