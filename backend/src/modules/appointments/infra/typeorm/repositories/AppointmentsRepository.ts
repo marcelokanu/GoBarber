@@ -43,8 +43,8 @@ class AppointmentsRepository implements IAppointmentsRepository {
     year,
   }: IFindAllInDayFromProviderDTO): Promise<Appointment[]> {
     // padStart - se a string n tiver 2 digitos, preenche a esquerda com 0
-    const parsedMonth = String(month).padStart(2, '');
-    const parsedDay = String(day).padStart(2, '');
+    const parsedMonth = String(month).padStart(2, '0');
+    const parsedDay = String(day).padStart(2, '0');
 
     const appointments = await this.ormRepository.find({
       where: {
