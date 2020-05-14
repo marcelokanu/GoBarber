@@ -1,4 +1,4 @@
-import IStorageProvider from '@shared/container/providers/StorageProviders/models/IStorageProvider';
+import IStorageProvider from '@shared/container/providers/StorageProvider/models/IStorageProvider';
 import fs from 'fs';
 import path from 'path';
 import uploadConfig from '@config/upload';
