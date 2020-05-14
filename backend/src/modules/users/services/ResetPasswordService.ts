@@ -2,7 +2,6 @@ import { injectable, inject } from 'tsyringe';
 
 import { isAfter, addHours } from 'date-fns';
 
-// import User from '@modules/users/infra/typeorm/entities/User';
 import AppError from '@shared/errors/AppError';
 
 import IUsersRepository from '@modules/users/repositories/IUsersRepository';
@@ -36,7 +35,7 @@ class ResetPasswordService {
     const user = await this.usersRepository.findByID(userToken.user_id);
 
     if (!user) {
-      throw new AppError('User token does not exists');
+      throw new AppError('User does not exists');
     }
 
     const tokenCreatedAt = userToken.created_at;
