@@ -18,11 +18,12 @@ import '@shared/container';
 
 const app = express();
 
-app.use(rateLimiter);
+
 app.use(cors());
 app.use(express.json());
 // Rota para visualizar os arquivos
 app.use('/files', express.static(uploadConfig.uploadsFolder));
+app.use(rateLimiter);
 
 app.use(routes);
 
