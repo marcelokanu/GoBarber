@@ -151,9 +151,14 @@ const Profile: React.FC = () => {
           uri: response.uri,
         });
 
-        api.patch('users/avatar', data).then((apiResponse) => {
-          updateUser(apiResponse.data);
-        });
+        api
+          .patch('users/avatar', data)
+          .then((apiResponse) => {
+            updateUser(apiResponse.data);
+          })
+          .catch((err) => {
+            console.log(`openCamera catch${err.toString()}`);
+          });
       },
     );
   }, [updateUser, user.id]);
